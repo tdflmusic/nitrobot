@@ -1,6 +1,6 @@
-const botSettings = require("./botsettings.json");
+const botSettings = require("./config.json");
 const Discord = require("discord.js");
-
+console.log(botSettings.token);
 const bot = new Discord.Client();
 
 const embed = new Discord.RichEmbed()
